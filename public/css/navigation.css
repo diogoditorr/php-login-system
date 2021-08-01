@@ -1,0 +1,30 @@
+header {
+    border-bottom: 3px solid rgba(0, 0, 0, 0.9);
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+
+    /* box-shadow: 0 -7px 20px 7px black; */
+
+    background-color: #007e13;
+
+    padding: 0.7rem 1.4rem;
+
+    z-index: 99;
+
+}
+
+header nav a {
+    margin-right: 1rem;
+    padding: 0.8rem 1.5rem;
+    
+    color: white;
+    
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: #e4e4e4;
+}

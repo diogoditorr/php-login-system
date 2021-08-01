@@ -1,0 +1,14 @@
+#main-page main .container h1 {
+    margin-bottom: 2rem;
+}
+
+#main-page main .boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+}
+
+#main-page main .box {
+    background-color: rgb(59, 104, 70);
+    height: 12rem;
+}

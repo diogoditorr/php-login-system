@@ -1,0 +1,28 @@
+:root {
+    /* font-size: 62.5%; */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main .container {
+    width: 75%;
+    padding: 2rem;
+
+    border-radius: 0 0 4px 4px;
+
+    background-color: #e4e4e4;
+}
